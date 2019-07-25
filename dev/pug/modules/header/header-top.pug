@@ -1,15 +1,17 @@
 .header__top
-    nav.header__nav.header-nav
-        ul.header-nav__list
-            +headerNavLink('','О компании')
-            +headerNavLink('','Доставка и оплата')
-            +headerNavLink('','Акции')
-            +headerNavLink('','Поставщикам')
-            +headerNavLink('','Новости')
-            +headerNavLink('','Гарантии')
-            +headerNavLink('','Контакты')
+    .container
+        .header__content
+            nav.header__nav.header-nav
+                ul.header-nav__list
+                    +headerNavLink('','О компании')
+                    +headerNavLink('','Доставка и оплата')
+                    +headerNavLink('','Акции')
+                    +headerNavLink('','Поставщикам')
+                    +headerNavLink('','Новости')
+                    +headerNavLink('','Гарантии')
+                    +headerNavLink('','Контакты')
 
-    nav.header__nav.header__nav--right.header-nav
-        ul.header-nav__list
-            +headerNavLink('','Регистрация')
-            +headerNavLink('','Вход')
+            nav.header__nav.header__nav--right.header-nav
+                ul.header-nav__list
+                    +headerNavLink('','Регистрация')
+                    +headerNavLink('','Вход')
